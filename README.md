@@ -29,9 +29,9 @@ To build this frontend you need the following software
 
 ## Run
 
-- Note, that you need the backend to run, so that the frontend can access any data.
-  Without the backend you just see an almost empty browser screen (the navigation bar is shown)
-- If you don't have a backend running yet, you can access mine [here](https://fullstack-backend.ew.r.appspot.com/)
+- Note that you need the backend to run, so that the frontend can access any data.
+  Without the backend you just see an almost empty browser screen (only the navigation bar is shown)
+- If you don't have a backend running yet, you can access mine [here](https://fullstack-backend.ew.r.appspot.com/).
   You need to change the 'axiosConfig.js' file where to find the backend
 - Open a command prompt and change to the source folder
   (you can also use a command prompt inside Visual Studio Code, if you like)
@@ -45,3 +45,18 @@ To build this frontend you need the following software
 
 ## Testing
 
+### Test 1
+
+- Click on the 'Reading List' entry in the navigation bar
+- An error should be displayed saying 'Sorry, this page is not yet implemented'
+
+### Test 2
+
+- Click on the 'Reviews' button while any book is shown
+- The review page should be shown with the book cover in big on the left side and the review form on the right side
+
+### Test 3
+
+- While on the review page enter some text below the 'Write a Review?' label
+- Press the 'Submit' button
+- You should stay on the same review page but the entered text should be displayed at the end of the list
